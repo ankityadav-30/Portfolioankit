@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit Yadav | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <header>
+        <nav role="navigation">
+            <a href="#" class="logo">Ankit Yadav</a>
+            <ul class="nav-links">
+                <li><a href="#about" data-text="About">About</a></li>
+                <li><a href="#experience" data-text="Experience">Experience</a></li>
+                <li><a href="#skills" data-text="Skills">Skills</a></li>
+                <li><a href="#projects" data-text="Projects">Projects</a></li>
+                <li><a href="#contact" data-text="Contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="theme-toggle" id="theme-toggle" title="Toggle Theme" aria-label="Toggle color theme">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+                <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="nav-overlay"></div>
+
+    <main id="main-content">
+        <section id="hero">
+            <div class="hero-gradient-bg">
+                <div class="gradient-blob blob-1"></div>
+                <div class="gradient-blob blob-2"></div>
+                <div class="gradient-blob blob-3"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-main-title">🅐🅝🅚🅘🅣 🅨🅐🅓🅐🅥</h1>
+                <p class="hero-subtitle"><span id="hero-dynamic-title"></span></p>
+                <p class="hero-main-description">
+                    A creative developer based in Kanpur, transforming ideas into scalable and beautiful web applications.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title">Beyond The Code</h2>
+            <div class="about-container-revamped">
+                <div class="about-text-content">
+                    <p class="about-mission">
+                        My passion lies at the intersection of logic and creativity. I don't just write code; I architect experiences. Drawing from a deep foundation in C++ and algorithms, I build robust, scalable back-ends and pair them with clean, intuitive front-ends using the MERN stack.
+                    </p>
+                    <div class="about-core-values">
+                        <div class="value-item">
+                            <i class="fa-solid fa-microchip"></i>
+                            <div>
+                                <h4>Efficiency First</h4>
+                                <p>Crafting performant, optimized solutions that respect user time and system resources.</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <i class="fa-solid fa-user-check"></i>
+                            <div>
+                                <h4>User-Centric</h4>
+                                <p>Building interfaces that are intuitive, accessible, and a genuine joy to use.</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <i class="fa-solid fa-infinity"></i>
+                            <div>
+                                <h4>Scalable by Design</h4>
+                                <p>Architecting applications with future growth and long-term stability in mind.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="resume.pdf" download="Ankit_Yadav_Resume.pdf" class="btn">Download Resume <i class="fa-solid fa-download"></i></a>
+                </div>
+                <div class="about-image-wrapper">
+                    <div class="about-image">
+                        <img src="ankit.jpg" alt="Ankit Yadav">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2 class="section-title">My Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021</div>
+                    <div class="timeline-content">
+                        <h3>Started University</h3>
+                        <p>Began my B.Tech in Computer Science at UIET, CSJM University, Kanpur.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>Full-Stack Development</h3>
+                        <p>Dived into the MERN stack, building my first full-stack applications.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>Competitive Programming</h3>
+                        <p>Honed my problem-solving skills with C++ and complex algorithms.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2025</div>
+                    <div class="timeline-content">
+                        <h3>Seeking Internships</h3>
+                        <p>Looking for opportunities to apply my skills to real-world challenges.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title">My Tech Arsenal</h2>
+            <div class="skills-container">
+                <div class="skills-categories">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skills-list">
+                            <button class="skill-item" data-skill="react">React.js</button>
+                            <button class="skill-item" data-skill="js">JavaScript (ES6+)</button>
+                            <button class="skill-item" data-skill="html5">HTML5</button>
+                            <button class="skill-item" data-skill="css3">CSS3</button>
+                            <button class="skill-item" data-skill="gsap">GSAP</button>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skills-list">
+                            <button class="skill-item" data-skill="node">Node.js</button>
+                            <button class="skill-item" data-skill="express">Express.js</button>
+                            <button class="skill-item" data-skill="mongodb">MongoDB</button>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Languages & Tools</h3>
+                        <div class="skills-list">
+                            <button class="skill-item" data-skill="cpp">C++</button>
+                            <button class="skill-item" data-skill="dsa">DSA</button>
+                            <button class="skill-item" data-skill="git">Git & GitHub</button>
+                            <button class="skill-item" data-skill="vscode">VS Code</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-details-wrapper">
+                    <div class="skills-details">
+                        <div class="skill-details-content" id="skill-details-content">
+                            <i class="fa-solid fa-shapes icon-placeholder"></i>
+                            <h3>Select a skill</h3>
+                            <p>Click on any skill from the list to see more details about my experience with it.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="react">React</button>
+                <button class="filter-btn" data-filter="node">Node.js</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-tech="react node mongodb">
+                    <img src="https://images.pexels.com/photos/5775854/pexels-photo-5775854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="E-commerce Site">
+                    <a href="https://github.com/ankit-yadav-dev/ecommerce-platform" target="_blank" class="project-title-link"><h3>E-commerce Platform</h3></a>
+                    <p>A complete e-commerce site built from scratch to master full-stack development.</p>
+                    <div class="project-tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+                    <div class="project-links"><a href="https://github.com/ankit-yadav-dev/ecommerce-platform" target="_blank" class="btn">View on GitHub <i class="fa-solid fa-arrow-right"></i></a></div>
+                </div>
+                <div class="project-card" data-tech="react javascript css">
+                    <img src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="DSA Visualizer">
+                    <a href="https://github.com/ankit-yadav-dev/dsa-visualizer" target="_blank" class="project-title-link"><h3>DSA Visualizer</h3></a>
+                    <p>An interactive tool that helps users grasp abstract data structures and algorithms.</p>
+                    <div class="project-tags"><span>React</span><span>JavaScript</span><span>CSS</span></div>
+                    <div class="project-links"><a href="https://github.com/ankit-yadav-dev/dsa-visualizer" target="_blank" class="btn">View on GitHub <i class="fa-solid fa-arrow-right"></i></a></div>
+                </div>
+                <div class="project-card" data-tech="node express ejs">
+                    <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="CodeShare Platform">
+                    <a href="https://github.com/ankit-yadav-dev/codeshare" target="_blank" class="project-title-link"><h3>CodeShare Platform</h3></a>
+                    <p>A minimalist platform for quickly sharing code snippets with syntax highlighting.</p>
+                    <div class="project-tags"><span>Node.js</span><span>Express</span><span>EJS</span></div>
+                    <div class="project-links"><a href="https://github.com/ankit-yadav-dev/codeshare" target="_blank" class="btn">View on GitHub <i class="fa-solid fa-arrow-right"></i></a></div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="section">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-text">
+                I'm currently looking for internship opportunities and am open to freelance projects. My inbox is always open, feel free to reach out!
+            </p>
+            <form action="https://formspree.io/f/mzbnyqod" method="POST" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                <button type="submit" class="btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Ankit Yadav. Coded with passion in Kanpur, Uttar Pradesh.</p>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
